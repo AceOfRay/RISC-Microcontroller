@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Exp5.srcs/sources_1/new/ALU.v" \
+"../../../../Exp5.srcs/sources_1/new/BranchAddressGenerator.v" \
+"../../../../Exp5.srcs/sources_1/new/Exp_5_TLD.v" \
+"../../../../Exp5.srcs/sources_1/new/ImmediateGenerator.v" \
+"../../../../Exp5.srcs/sources_1/new/PC.v" \
+"../../../../../CPE233/Modules/mux_2t1_nb_v1_04.v" \
+"../../../../../CPE233/Modules/mux_4t1_nb_v1_06.v" \
+
+sv xil_defaultlib  \
+"../../../../../CPE233/Modules/control_unit_dcdr_v_1_05.sv" \
+"../../../../../CPE233/Modules/control_unit_fsm_v_1_07.sv" \
+"../../../../../CPE233/Modules/otter_memory_v1_06.sv" \
+"../../../../../CPE233/Modules/reg_file_v_1_01.sv" \
+
+verilog xil_defaultlib  \
+"../../../../../CPE233/Modules/exp5_testbench-1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
