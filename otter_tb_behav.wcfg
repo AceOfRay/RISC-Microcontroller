@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="otter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="otter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="210.601 ns"></ZoomEndTime>
+      <Cursor1Time time="81.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="327"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/otter_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/intr" type="logic">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/iobus_in" type="array">
+      <obj_property name="ElementShortName">iobus_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iobus_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/iobus_addr" type="array">
+      <obj_property name="ElementShortName">iobus_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iobus_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/iobus_out" type="array">
+      <obj_property name="ElementShortName">iobus_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iobus_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/iobus_wr" type="logic">
+      <obj_property name="ElementShortName">iobus_wr</obj_property>
+      <obj_property name="ObjectShortName">iobus_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/OTTER_MEMORY/MEM_DOUT1" type="array">
+      <obj_property name="ElementShortName">MEM_DOUT1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DOUT1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/OTTER_MEMORY/MEM_DOUT2" type="array">
+      <obj_property name="ElementShortName">MEM_DOUT2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DOUT2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/pcWrite" type="logic">
+      <obj_property name="ElementShortName">pcWrite</obj_property>
+      <obj_property name="ObjectShortName">pcWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/regWrite" type="logic">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/memWE2" type="logic">
+      <obj_property name="ElementShortName">memWE2</obj_property>
+      <obj_property name="ObjectShortName">memWE2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/memRDEN1" type="logic">
+      <obj_property name="ElementShortName">memRDEN1</obj_property>
+      <obj_property name="ObjectShortName">memRDEN1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/memRDEN2" type="logic">
+      <obj_property name="ElementShortName">memRDEN2</obj_property>
+      <obj_property name="ObjectShortName">memRDEN2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_fsm/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_cu_dcdr/alu_fun" type="array">
+      <obj_property name="ElementShortName">alu_fun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_fun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_cu_dcdr/pcSource" type="array">
+      <obj_property name="ElementShortName">pcSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSource[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_cu_dcdr/alu_srcA" type="logic">
+      <obj_property name="ElementShortName">alu_srcA</obj_property>
+      <obj_property name="ObjectShortName">alu_srcA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_cu_dcdr/alu_srcB" type="array">
+      <obj_property name="ElementShortName">alu_srcB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_srcB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/TLD/my_cu_dcdr/rf_wr_sel" type="array">
+      <obj_property name="ElementShortName">rf_wr_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_wr_sel[1:0]</obj_property>
+   </wvobject>
+</wave_config>
