@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Cal Poly
+// Engineer: Ray Valenzuela
 // 
 // Create Date: 10/31/2023 09:40:03 AM
-// Design Name: 
+// Design Name: Working Risc-V Microprocessor
 // Module Name: ExpFiveTLD
-// Project Name: 
-// Target Devices: 
+// Project Name: Experiment 5
+// Target Devices: Basys 3 Board
 // Tool Versions: 
-// Description: 
+// Description: Implemented 6 hardware instructions LUI, LW, SW, ADD, ADDI, JAL
 // 
 // Dependencies: 
 // 
@@ -68,11 +68,12 @@ module ExpFiveTLD(
     wire memRDEN1;
     wire memRDEN2;
     wire memWE2;
+    wire iobus_db_wire;
     
     
     
     
-    
+    assign iobus_wr = iobus_db_wire;
     assign iobus_out = rs2Wire;
     assign iobus_addr = ALU_Out_Wire;
     
@@ -105,7 +106,7 @@ module ExpFiveTLD(
     .MEM_SIZE  (irWire[13:12]),
     .MEM_SIGN  (irWire[14]),
     .IO_IN     (iobus_in),
-    .IO_WR     (iobus_wr),
+    .IO_WR     (iobus_db_wire),
     .MEM_DOUT1 (irWire),
     .MEM_DOUT2 (Mem_2_RegMux)  
         ); 
@@ -179,7 +180,7 @@ module ExpFiveTLD(
      .D1    (I_Immed_2_Branch), 
      .D2    (s_type), 
      .D3    (PC_2_Mux),
-     .D_OUT (ALU_Out_Wire) 
+     .D_OUT (ALU_srcB_Wire) 
         );
         
     mux_4t1_nb  #(.n(32)) RegFile_Mux  (
