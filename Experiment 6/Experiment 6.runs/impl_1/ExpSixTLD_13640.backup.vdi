@@ -1,0 +1,1564 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Nov 13 02:51:56 2023
+# Process ID: 13640
+# Current directory: C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1
+# Command line: vivado.exe -log ExpSixTLD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ExpSixTLD.tcl -notrace
+# Log file: C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD.vdi
+# Journal file: C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1\vivado.jou
+# Running On: Evette, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 8, Host memory: 34203 MB
+#-----------------------------------------------------------
+source ExpSixTLD.tcl -notrace
+Command: link_design -top ExpSixTLD -part xc7a35ticsg325-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35ticsg325-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 797.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 279 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W5' is not a valid site or package pin name. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'switches[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 926.066 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+7 Infos, 98 Warnings, 99 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.706 . Memory (MB): peak = 948.039 ; gain = 21.973
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 8bbe22c9
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1476.215 ; gain = 528.176
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter OTTER_MEMORY/iobus_addr_OBUF[12]_inst_i_1 into driver instance OTTER_MEMORY/iobus_addr_OBUF[12]_inst_i_2, which resulted in an inversion of 18 pins
+INFO: [Opt 31-1287] Pulled Inverter OTTER_MEMORY/iobus_addr_OBUF[13]_inst_i_1 into driver instance OTTER_MEMORY/iobus_addr_OBUF[13]_inst_i_2, which resulted in an inversion of 18 pins
+INFO: [Opt 31-1287] Pulled Inverter OTTER_MEMORY/iobus_addr_OBUF[14]_inst_i_1 into driver instance OTTER_MEMORY/iobus_addr_OBUF[14]_inst_i_2, which resulted in an inversion of 18 pins
+INFO: [Opt 31-1287] Pulled Inverter OTTER_MEMORY/iobus_addr_OBUF[15]_inst_i_1 into driver instance OTTER_MEMORY/iobus_addr_OBUF[15]_inst_i_2, which resulted in an inversion of 18 pins
+INFO: [Opt 31-1287] Pulled Inverter OTTER_MEMORY/iobus_addr_OBUF[5]_inst_i_1 into driver instance OTTER_MEMORY/iobus_addr_OBUF[5]_inst_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 8a97c1f0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1823.922 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 5 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 13eb46fa9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1823.922 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: fa9f1ccc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1823.922 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: fa9f1ccc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.130 . Memory (MB): peak = 1823.922 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: fa9f1ccc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.132 . Memory (MB): peak = 1823.922 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: fa9f1ccc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 1823.922 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               5  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1823.922 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 7b62217e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1823.922 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 16 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 32
+Ending PowerOpt Patch Enables Task | Checksum: 7b62217e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 7b62217e
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1913.051 ; gain = 89.129
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 7b62217e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 7b62217e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+34 Infos, 98 Warnings, 99 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1913.051 ; gain = 986.984
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file ExpSixTLD_drc_opted.rpt -pb ExpSixTLD_drc_opted.pb -rpx ExpSixTLD_drc_opted.rpx
+Command: report_drc -file ExpSixTLD_drc_opted.rpt -pb ExpSixTLD_drc_opted.pb -rpx ExpSixTLD_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 5d37f906
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 5478e0a2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.327 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: df45d0a0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.610 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: df45d0a0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.613 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: df45d0a0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.618 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: c7726a36
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.764 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 5afada02
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.850 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 5afada02
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.854 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 1d8a73430
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 29 LUTNM shape to break, 1 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 3, two critical 26, total 29, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 29 nets or LUTs. Breaked 29 LUTs, combined 0 existing LUT and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           29  |              0  |                    29  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           29  |              0  |                    29  |           0  |           9  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1754cb975
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 17d8e03c1
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 17d8e03c1
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1d26435a2
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 168adfd5e
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 14ff07778
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 178e77830
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: b6f4094d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 178473c5a
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 109414f9f
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: b16a4f67
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 20c58a512
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 20c58a512
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1d127bd84
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-6.439 | TNS=-3294.522 |
+Phase 1 Physical Synthesis Initialization | Checksum: 100da04ab
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 18579c412
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1d127bd84
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-5.097. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 101eb3210
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 101eb3210
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 101eb3210
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                2x2|                4x4|
+|___________|___________________|___________________|
+|      South|                2x2|                4x4|
+|___________|___________________|___________________|
+|       East|                2x2|                1x1|
+|___________|___________________|___________________|
+|       West|                4x4|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 101eb3210
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 101eb3210
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 16b061367
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Ending Placer Task | Checksum: f37fabb7
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+76 Infos, 98 Warnings, 99 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.118 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file ExpSixTLD_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file ExpSixTLD_utilization_placed.rpt -pb ExpSixTLD_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file ExpSixTLD_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.199 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 1.00s |  WALL: 0.21s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.097 | TNS=-2751.878 |
+Phase 1 Physical Synthesis Initialization | Checksum: 155b68b36
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.097 | TNS=-2751.878 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 155b68b36
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.097 | TNS=-2751.878 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_46. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_2_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_wr_OBUF_inst_i_2_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.061 | TNS=-2746.913 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[24].  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[24]_inst_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[24]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.055 | TNS=-2746.787 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[24]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.017 | TNS=-2746.022 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_6_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_wr_OBUF_inst_i_6_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.010 | TNS=-2745.823 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.008 | TNS=-2745.671 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_44. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[8]_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/iobus_addr_OBUF[8]_inst_i_3_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[8]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.004 | TNS=-2742.251 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-134] Processed net RegFile/iobus_addr_OBUF[11]_inst_i_18. Rewiring did not optimize the net.
+INFO: [Physopt 32-702] Processed net RegFile/iobus_addr_OBUF[11]_inst_i_18. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net RegFile/iobus_addr_OBUF[11]_inst_i_18. Critical path length was reduced through logic transformation on cell RegFile/iobus_addr_OBUF[11]_inst_i_6_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_11. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.002 | TNS=-2742.166 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_8_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_45. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_0_i_34_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_0_i_34_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_0_i_34_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.999 | TNS=-2745.147 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_51. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_4_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_wr_OBUF_inst_i_4_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[26]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.996 | TNS=-2745.109 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_5_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcB_Wire[7].  Re-placed instance OTTER_MEMORY/i__carry_i_9
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcB_Wire[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.996 | TNS=-2744.966 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[18]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.984 | TNS=-2744.810 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcB_Wire[10].  Re-placed instance OTTER_MEMORY/i__carry__0_i_11
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcB_Wire[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.969 | TNS=-2744.544 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_7_n_0.  Re-placed instance OTTER_MEMORY/iobus_wr_OBUF_inst_i_7_comp
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.968 | TNS=-2744.471 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_0_i_35_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_0_i_35_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_0_i_35_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.963 | TNS=-2746.413 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.961 | TNS=-2746.389 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_8_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/data0[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry__2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_14[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/ALU_srcB_Wire[4]. Replicated 4 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcB_Wire[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.959 | TNS=-2735.107 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_7_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_7_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_7_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_7_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.958 | TNS=-2734.632 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_11_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_11_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_11_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_11_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.955 | TNS=-2734.041 |
+INFO: [Physopt 32-702] Processed net alu/result0_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_21[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[11]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_0[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_13_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_31_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.941 | TNS=-2729.717 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_49. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[31].  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[31]_inst_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.937 | TNS=-2727.907 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.928 | TNS=-2727.796 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_46. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_30_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.924 | TNS=-2722.415 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_66. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-134] Processed net OTTER_MEMORY/FSM_sequential_PS[1]_i_2_n_0. Rewiring did not optimize the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/FSM_sequential_PS[1]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.923 | TNS=-2722.390 |
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[11]_inst_i_4_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[11]_inst_i_4_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_9. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.906 | TNS=-2721.953 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcA_Wire[6].  Re-placed instance OTTER_MEMORY/result0_carry__0_i_2
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.903 | TNS=-2721.935 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[11]_inst_i_21_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.903 | TNS=-2720.954 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_52. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[28]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 17 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[28]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.897 | TNS=-2720.848 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.890 | TNS=-2720.775 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_47. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_17[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcB_Wire[12].  Re-placed instance OTTER_MEMORY/result0_carry__2_i_12
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcB_Wire[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.889 | TNS=-2720.769 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_3[1].  Re-placed instance OTTER_MEMORY/result0_carry__2_i_2
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_3[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.888 | TNS=-2719.985 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.881 | TNS=-2719.915 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_2_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_2_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_0_i_31_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_0_i_39_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.878 | TNS=-2718.085 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_0_i_36_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_0_i_36_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_0_i_36_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.877 | TNS=-2720.011 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[20]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[20]. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[20]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[20]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.876 | TNS=-2719.991 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_repN. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_1_comp_1.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.875 | TNS=-2719.611 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/FSM_sequential_PS[1]_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/irWire[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_26_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_52_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.874 | TNS=-2719.601 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcA_Wire[12].  Re-placed instance OTTER_MEMORY/result0_carry__2_i_4
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.872 | TNS=-2719.581 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[29].  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[29]_inst_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[29]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.868 | TNS=-2719.511 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_n_62. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/irWire[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_13_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_30_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.866 | TNS=-2719.175 |
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_14_i_5_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_14_i_5_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_0_i_38_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.864 | TNS=-2719.090 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[28]_inst_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[28]_inst_i_12_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.851 | TNS=-2716.836 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcA_Wire[6].  Re-placed instance OTTER_MEMORY/result0_carry__0_i_2
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.845 | TNS=-2716.636 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_15_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_15_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_15_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.832 | TNS=-2716.552 |
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_repN. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_3_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.830 | TNS=-2716.529 |
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/ALU_srcA_Wire[6]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.829 | TNS=-2716.518 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_61. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/irWire[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_22_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_43_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.829 | TNS=-2716.435 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[3]_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/iobus_addr_OBUF[3]_inst_i_4_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[3]_inst_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.821 | TNS=-2713.075 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 20 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.820 | TNS=-2713.010 |
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_8_i_6_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_8_i_6_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_8_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.815 | TNS=-2713.025 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_3_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_3_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_8_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.813 | TNS=-2712.942 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_9_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 13 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_9_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.812 | TNS=-2712.847 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-601] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_8_n_0. Net driver OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_8 was replaced.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_8_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.812 | TNS=-2712.811 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_repN_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_8_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_8_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_8_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_13_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.809 | TNS=-2712.836 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[26]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[26]_repN. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[26]_inst_i_1_comp_2.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[26]_inst_i_5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.806 | TNS=-2712.517 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_64. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/irWire[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_24_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[30]_inst_i_48_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.806 | TNS=-2712.517 |
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.805 | TNS=-2712.505 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_12_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_12_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_12_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_12_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.804 | TNS=-2712.002 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_52. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.804 | TNS=-2712.002 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_7_n_46. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_8_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/data0[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_21[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[11]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_0[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_12_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_29_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.802 | TNS=-2711.787 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[31].  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[31]_inst_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.800 | TNS=-2711.757 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_49. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 20 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.799 | TNS=-2711.330 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_8_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_44. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_8_i_1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[12]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.798 | TNS=-2711.323 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_45. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[12]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.796 | TNS=-2710.899 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_8_i_1_n_0_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[14]_inst_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[14]_inst_i_6_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.794 | TNS=-2710.814 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_64. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/FSM_sequential_PS[1]_i_2_n_0.  Re-placed instance OTTER_MEMORY/FSM_sequential_PS[1]_i_2
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/FSM_sequential_PS[1]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.792 | TNS=-2710.772 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[14]_inst_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net RegFile/iobus_addr_OBUF[9]_inst_i_26. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/result0_carry__5_i_3_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.790 | TNS=-2710.662 |
+INFO: [Physopt 32-663] Processed net RegFile/iobus_addr_OBUF[9]_inst_i_21_n_0.  Re-placed instance RegFile/iobus_addr_OBUF[9]_inst_i_21
+INFO: [Physopt 32-735] Processed net RegFile/iobus_addr_OBUF[9]_inst_i_21_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.790 | TNS=-2708.996 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.790 | TNS=-2708.996 |
+Phase 3 Critical Path Optimization | Checksum: 16fdc8576
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1913.051 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.790 | TNS=-2708.996 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_52. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_13_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_13_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_13_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.788 | TNS=-2708.879 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_45. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_8_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/data0[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry__2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_15[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcB_Wire[9].  Re-placed instance OTTER_MEMORY/result0_carry__1_i_10
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcB_Wire[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.787 | TNS=-2708.540 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_47. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_17[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_3[0].  Re-placed instance OTTER_MEMORY/result0_carry__2_i_3
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_3[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.786 | TNS=-2693.891 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_15[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/result0_carry__1_i_9_n_0.  Re-placed instance OTTER_MEMORY/result0_carry__1_i_9
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/result0_carry__1_i_9_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.785 | TNS=-2693.668 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_8_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_44. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_8_i_6_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_8_i_6_comp_1.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_8_i_1_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.784 | TNS=-2693.561 |
+INFO: [Physopt 32-134] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0. Rewiring did not optimize the net.
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.784 | TNS=-2692.547 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_1_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_1_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_1_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_1_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.784 | TNS=-2692.253 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_9_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 13 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_9_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.781 | TNS=-2691.741 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_14_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_14_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_14_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.768 | TNS=-2691.796 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_10_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.767 | TNS=-2691.738 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_0_i_35_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_repN_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_4_n_0.  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_4
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[0]_inst_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.767 | TNS=-2691.246 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_51. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[6]_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/iobus_addr_OBUF[6]_inst_i_4_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[6]_inst_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.755 | TNS=-2689.565 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_49. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/result0_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 20 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.755 | TNS=-2689.565 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[25]. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[25]_inst_i_1_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[25]_inst_i_5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.752 | TNS=-2689.311 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_14[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcB_Wire[4]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.748 | TNS=-2689.262 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.745 | TNS=-2688.656 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_51. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.742 | TNS=-2688.548 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_2_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_6_n_0.  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_6
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_6_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.741 | TNS=-2686.291 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 4 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_15_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.740 | TNS=-2686.034 |
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/memory_reg_bram_10_i_6_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/memory_reg_bram_10_i_6_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.737 | TNS=-2686.063 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_3_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/memory_reg_bram_3_i_1_n_0.  Re-placed instance OTTER_MEMORY/memory_reg_bram_3_i_1
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_3_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.731 | TNS=-2685.762 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]_inst_i_4_n_0. Critical path length was reduced through logic transformation on cell OTTER_MEMORY/iobus_addr_OBUF[18]_inst_i_4_comp.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.730 | TNS=-2685.769 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_6_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.729 | TNS=-2685.761 |
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcA_Wire[9].  Re-placed instance OTTER_MEMORY/result0_carry__1_i_3
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.729 | TNS=-2685.751 |
+INFO: [Physopt 32-81] Processed net OTTER_MEMORY/memory_reg_bram_8_i_1_n_0. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_8_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.728 | TNS=-2685.731 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_44. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 16 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_bram_10_i_1_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.728 | TNS=-2685.661 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_15_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_51. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[28]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[28]_inst_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[29]_inst_i_12_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.727 | TNS=-2685.633 |
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[17]_inst_i_8_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net alu/data0[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_21[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[11]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_0[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_9_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/reg_file_reg_r2_0_31_0_5_i_23_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.727 | TNS=-2680.840 |
+INFO: [Common 17-14] Message 'Physopt 32-619' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_52. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_0_i_33_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_0_i_39_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[1]_inst_i_9_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/ALU_srcA_Wire[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[27]_inst_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_14_n_67. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[8]_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[8]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[8]_inst_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/iobus_addr_OBUF[9]_inst_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-702] Processed net RegFile/iobus_addr_OBUF[11]_inst_i_18. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_11. Optimization improves timing on the net.
+INFO: [Common 17-14] Message 'Physopt 32-735' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_10_n_47. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_wr_OBUF_inst_i_7_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[23]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 21 pins.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[21]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[21]_inst_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_51. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[7]_inst_i_11_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[9]_inst_i_18_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_bram_13_n_45. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[20]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[20]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[20]_inst_i_8_n_0.  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[20]_inst_i_8
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/memory_reg_mux_sel_b_pos_0_14[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/ALU_srcB_Wire[5].  Re-placed instance OTTER_MEMORY/result0_carry__0_i_10
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net OTTER_MEMORY/iobus_addr_OBUF[18]_inst_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_4_n_0_repN_1.  Re-placed instance OTTER_MEMORY/iobus_addr_OBUF[19]_inst_i_4_comp_1
+Phase 4 Critical Path Optimization | Checksum: 12828ccca
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-4.699 | TNS=-2673.740 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.398  |         78.137  |           11  |              0  |                   108  |           0  |           2  |  00:00:16  |
+|  Total          |          0.398  |         78.137  |           11  |              0  |                   108  |           0  |           3  |  00:00:16  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.051 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 14fe15926
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+580 Infos, 98 Warnings, 99 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1913.051 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 56ff7312 ConstDB: 0 ShapeSum: 6f19735d RouteDB: 0
+Post Restoration Checksum: NetGraph: c34ec0e3 NumContArr: c4debc3d Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 1882d7d20
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1942.316 ; gain = 29.266
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 1882d7d20
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1948.355 ; gain = 35.305
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 1882d7d20
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1948.355 ; gain = 35.305
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1bf8f8bff
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1956.055 ; gain = 43.004
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-4.525 | TNS=-2474.442| WHS=-0.024 | THS=-0.024 |
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 2281
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 2281
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 182cf45d6
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1962.102 ; gain = 49.051
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 182cf45d6
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1962.102 ; gain = 49.051
+Phase 3 Initial Routing | Checksum: 1fbb2ca09
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 2000.977 ; gain = 87.926
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1472
+ Number of Nodes with overlaps = 768
+ Number of Nodes with overlaps = 366
+ Number of Nodes with overlaps = 248
+ Number of Nodes with overlaps = 153
+ Number of Nodes with overlaps = 89
+ Number of Nodes with overlaps = 57
+ Number of Nodes with overlaps = 37
+ Number of Nodes with overlaps = 21
+ Number of Nodes with overlaps = 22
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.454 | TNS=-3287.495| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: d381aba8
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:34 . Memory (MB): peak = 2000.977 ; gain = 87.926
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 512
+ Number of Nodes with overlaps = 520
+ Number of Nodes with overlaps = 340
+ Number of Nodes with overlaps = 214
+ Number of Nodes with overlaps = 164
+ Number of Nodes with overlaps = 95
+ Number of Nodes with overlaps = 68
+ Number of Nodes with overlaps = 48
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.911 | TNS=-3240.948| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 21f0ae0fc
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:55 . Memory (MB): peak = 2000.977 ; gain = 87.926
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 693
+ Number of Nodes with overlaps = 350
+ Number of Nodes with overlaps = 229
+ Number of Nodes with overlaps = 154
+ Number of Nodes with overlaps = 103
+Phase 4.3 Global Iteration 2 | Checksum: 112e97d39
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:10 . Memory (MB): peak = 2000.977 ; gain = 87.926
+Phase 4 Rip-up And Reroute | Checksum: 112e97d39
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:10 . Memory (MB): peak = 2000.977 ; gain = 87.926
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1b12ca15e
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:11 . Memory (MB): peak = 2000.977 ; gain = 87.926
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.832 | TNS=-3199.204| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 18e2745fe
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:13 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 18e2745fe
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:13 . Memory (MB): peak = 2006.574 ; gain = 93.523
+Phase 5 Delay and Skew Optimization | Checksum: 18e2745fe
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:13 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1d6cb34bf
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.824 | TNS=-3174.815| WHS=0.166  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1d6cb34bf
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+Phase 6 Post Hold Fix | Checksum: 1d6cb34bf
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.64418 %
+  Global Horizontal Routing Utilization  = 3.00482 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 78.3784%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 95.4955%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_R_X27Y16 -> INT_R_X27Y16
+   INT_L_X30Y16 -> INT_L_X30Y16
+   INT_L_X28Y15 -> INT_L_X28Y15
+   INT_L_X26Y13 -> INT_L_X26Y13
+   INT_L_X28Y13 -> INT_L_X28Y13
+East Dir 1x1 Area, Max Cong = 94.1176%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_R_X23Y19 -> INT_R_X23Y19
+   INT_R_X23Y18 -> INT_R_X23Y18
+   INT_L_X24Y18 -> INT_L_X24Y18
+   INT_L_X24Y15 -> INT_L_X24Y15
+   INT_R_X27Y11 -> INT_R_X27Y11
+West Dir 1x1 Area, Max Cong = 100%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X28Y19 -> INT_L_X28Y19
+   INT_R_X25Y17 -> INT_R_X25Y17
+   INT_R_X25Y15 -> INT_R_X25Y15
+   INT_R_X25Y13 -> INT_R_X25Y13
+   INT_R_X27Y13 -> INT_R_X27Y13
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1 Aspect Ratio: 0.5 Sparse Ratio: 0.5
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1 Aspect Ratio: 1 Sparse Ratio: 0.75
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1 Aspect Ratio: 0.5 Sparse Ratio: 0.5
+
+Phase 7 Route finalize | Checksum: 16939f90e
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 16939f90e
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 13c996c1e
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.824 | TNS=-3174.815| WHS=0.166  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 13c996c1e
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+598 Infos, 99 Warnings, 99 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:58 ; elapsed = 00:01:14 . Memory (MB): peak = 2006.574 ; gain = 93.523
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 2006.574 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file ExpSixTLD_drc_routed.rpt -pb ExpSixTLD_drc_routed.pb -rpx ExpSixTLD_drc_routed.rpx
+Command: report_drc -file ExpSixTLD_drc_routed.rpt -pb ExpSixTLD_drc_routed.pb -rpx ExpSixTLD_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file ExpSixTLD_methodology_drc_routed.rpt -pb ExpSixTLD_methodology_drc_routed.pb -rpx ExpSixTLD_methodology_drc_routed.rpx
+Command: report_methodology -file ExpSixTLD_methodology_drc_routed.rpt -pb ExpSixTLD_methodology_drc_routed.pb -rpx ExpSixTLD_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/impl_1/ExpSixTLD_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file ExpSixTLD_power_routed.rpt -pb ExpSixTLD_power_summary_routed.pb -rpx ExpSixTLD_power_routed.rpx
+Command: report_power -file ExpSixTLD_power_routed.rpt -pb ExpSixTLD_power_summary_routed.pb -rpx ExpSixTLD_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+610 Infos, 99 Warnings, 99 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file ExpSixTLD_route_status.rpt -pb ExpSixTLD_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file ExpSixTLD_timing_summary_routed.rpt -pb ExpSixTLD_timing_summary_routed.pb -rpx ExpSixTLD_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file ExpSixTLD_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file ExpSixTLD_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file ExpSixTLD_bus_skew_routed.rpt -pb ExpSixTLD_bus_skew_routed.pb -rpx ExpSixTLD_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 02:54:10 2023...

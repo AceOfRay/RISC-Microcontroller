@@ -1,0 +1,724 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Nov 13 02:50:48 2023
+# Process ID: 1680
+# Current directory: C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/synth_1
+# Command line: vivado.exe -log ExpSixTLD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ExpSixTLD.tcl
+# Log file: C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/synth_1/ExpSixTLD.vds
+# Journal file: C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/synth_1\vivado.jou
+# Running On: Evette, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 8, Host memory: 34203 MB
+#-----------------------------------------------------------
+source ExpSixTLD.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top ExpSixTLD -part xc7a35ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg325-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15352
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1203.695 ; gain = 407.285
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ExpSixTLD' [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/sources_1/new/Exp6TLD.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Branch_Cond_Gen' [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/sources_1/new/Branch_Cond_Gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Branch_Cond_Gen' (0#1) [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/sources_1/new/Branch_Cond_Gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_nb_sclr' [C:/Users/Ray Valenzuela/Downloads/PC.v:36]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_nb_sclr' (0#1) [C:/Users/Ray Valenzuela/Downloads/PC.v:36]
+INFO: [Synth 8-6157] synthesizing module 'mux_4t1_nb' [C:/Users/Ray Valenzuela/CPE233/Modules/mux_4t1_nb_v1_06.v:45]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_4t1_nb' (0#1) [C:/Users/Ray Valenzuela/CPE233/Modules/mux_4t1_nb_v1_06.v:45]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/Users/Ray Valenzuela/CPE233/Modules/otter_memory_v1_06.sv:47]
+INFO: [Synth 8-3876] $readmem data file 'otter_memory.mem' is read successfully [C:/Users/Ray Valenzuela/CPE233/Modules/otter_memory_v1_06.sv:72]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Ray Valenzuela/CPE233/Modules/otter_memory_v1_06.sv:94]
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (0#1) [C:/Users/Ray Valenzuela/CPE233/Modules/otter_memory_v1_06.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'Immed_Gen' [C:/Users/Ray Valenzuela/Downloads/ImmediateGenerator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Immed_Gen' (0#1) [C:/Users/Ray Valenzuela/Downloads/ImmediateGenerator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Branch_Address_Gen' [C:/Users/Ray Valenzuela/Downloads/BranchAddressGenerator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Branch_Address_Gen' (0#1) [C:/Users/Ray Valenzuela/Downloads/BranchAddressGenerator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [C:/Users/Ray Valenzuela/CPE233/Modules/reg_file_v_1_01.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (0#1) [C:/Users/Ray Valenzuela/CPE233/Modules/reg_file_v_1_01.sv:36]
+INFO: [Synth 8-6157] synthesizing module 'CU_FSM' [C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv:43]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv:95]
+INFO: [Synth 8-6155] done synthesizing module 'CU_FSM' (0#1) [C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv:43]
+INFO: [Synth 8-6157] synthesizing module 'CU_DCDR' [C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv:41]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv:91]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv:156]
+WARNING: [Synth 8-151] case item 3'b010 is unreachable [C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv:204]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv:204]
+INFO: [Synth 8-6155] done synthesizing module 'CU_DCDR' (0#1) [C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv:41]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/Ray Valenzuela/Downloads/ALU.v:23]
+WARNING: [Synth 8-151] case item 4'b0010 is unreachable [C:/Users/Ray Valenzuela/Downloads/ALU.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/Ray Valenzuela/Downloads/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux_2t1_nb' [C:/Users/Ray Valenzuela/CPE233/Modules/mux_2t1_nb_v1_04.v:36]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_2t1_nb' (0#1) [C:/Users/Ray Valenzuela/CPE233/Modules/mux_2t1_nb_v1_04.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'ExpSixTLD' (0#1) [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/sources_1/new/Exp6TLD.v:23]
+WARNING: [Synth 8-7129] Port intr in module CU_FSM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[6] in module Immed_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[5] in module Immed_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[4] in module Immed_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[3] in module Immed_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[2] in module Immed_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[1] in module Immed_Gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ir[0] in module Immed_Gen is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1310.246 ; gain = 513.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1310.246 ; gain = 513.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1310.246 ; gain = 513.836
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1310.246 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'switches[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[8]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[9]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[10]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[11]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[12]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[13]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[14]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[15]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[7]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[6]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[5]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segs[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[0]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[1]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[2]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[3]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'buttons[4]'. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/constrs_1/new/Exp6 Constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ExpSixTLD_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ExpSixTLD_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1318.512 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1318.512 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'PS_reg' in module 'CU_FSM'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_INIT |                               00 |                               00
+                  st_FET |                               01 |                               01
+                   st_EX |                               10 |                               10
+                   st_WB |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'PS_reg' using encoding 'sequential' in module 'CU_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
++---RAMs : 
+	             512K Bit	(16384 X 32 bit)          RAMs := 1     
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 3     
+	   9 Input   32 Bit        Muxes := 2     
+	  16 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 2     
+	   8 Input    4 Bit        Muxes := 2     
+	   9 Input    4 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 3     
+	   9 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 4     
+	   4 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port intr in module ExpSixTLD is either unconnected or has no load
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ExpSixTLD/OTTER_MEMORY/memory_reg"
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|ExpSixTLD   | OTTER_MEMORY/memory_reg | 16 K x 32(READ_FIRST)  | W | R | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+----------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object           | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------+-----------+----------------------+--------------+
+|ExpSixTLD   | RegFile/reg_file_reg | Implied   | 32 x 32              | RAM32M x 12  | 
++------------+----------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1318.512 ; gain = 522.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1490.949 ; gain = 694.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|ExpSixTLD   | OTTER_MEMORY/memory_reg | 16 K x 32(READ_FIRST)  | W | R | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++------------+----------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object           | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------+-----------+----------------------+--------------+
+|ExpSixTLD   | RegFile/reg_file_reg | Implied   | 32 x 32              | RAM32M x 12  | 
++------------+----------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance OTTER_MEMORY/memory_reg_bram_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    47|
+|3     |LUT1     |    11|
+|4     |LUT2     |    77|
+|5     |LUT3     |    64|
+|6     |LUT4     |   165|
+|7     |LUT5     |   223|
+|8     |LUT6     |   732|
+|9     |MUXF7    |   138|
+|10    |MUXF8    |    64|
+|11    |RAM32M   |    10|
+|12    |RAM32X1D |     4|
+|13    |RAMB36E1 |    16|
+|18    |FDRE     |   106|
+|19    |IBUF     |    34|
+|20    |OBUF     |    65|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 1491.996 ; gain = 687.320
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1491.996 ; gain = 695.586
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1503.895 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 279 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1507.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+Synth Design complete, checksum: 133a9a68
+INFO: [Common 17-83] Releasing license: Synthesis
+116 Infos, 110 Warnings, 99 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1507.543 ; gain = 1088.742
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ray Valenzuela/CPE233/Experiments/Vivado/Experiment 6/Experiment 6.runs/synth_1/ExpSixTLD.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ExpSixTLD_utilization_synth.rpt -pb ExpSixTLD_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 02:51:29 2023...

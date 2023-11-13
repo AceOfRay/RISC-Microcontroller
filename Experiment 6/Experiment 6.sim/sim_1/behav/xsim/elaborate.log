@@ -4,11 +4,11 @@ Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-2861] module 'OTTER_Wrapper' does not have a parameter named SIM_MODE [C:/Users/Ray Valenzuela/CPE233/Modules/Exp6_testbench.v:32]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Branch_Cond_Gen
 Compiling module xil_defaultlib.reg_nb_sclr(n=32)
 Compiling module xil_defaultlib.mux_4t1_nb(n=32)
 Compiling module xil_defaultlib.Memory

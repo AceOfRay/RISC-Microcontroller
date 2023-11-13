@@ -188,7 +188,7 @@ module ExpSixTLD(
      .D1    (I_Immed_2_Branch), 
      .D2    (s_type), 
      .D3    (PC_2_Mux),
-     .D_OUT (ALU_Out_Wire) 
+     .D_OUT (ALU_srcB_Wire) 
         );
         
     mux_4t1_nb  #(.n(32)) RegFile_Mux  (
