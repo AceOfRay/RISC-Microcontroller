@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="128.220 ns"></ZoomStartTime>
-      <ZoomEndTime time="447.721 ns"></ZoomEndTime>
+      <ZoomStartTime time="368.280 ns"></ZoomStartTime>
+      <ZoomEndTime time="500.081 ns"></ZoomEndTime>
       <Cursor1Time time="1,000.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="6" />
+   <WVObjectSize size="18" />
    <wvobject fp_name="/otter_tb/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -43,5 +43,53 @@
    <wvobject fp_name="/otter_tb/my_wrapper/TLD/iobus_in" type="array">
       <obj_property name="ElementShortName">iobus_in[31:0]</obj_property>
       <obj_property name="ObjectShortName">iobus_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/my_fsm/PS" type="array">
+      <obj_property name="ElementShortName">PS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/PC/ld" type="logic">
+      <obj_property name="ElementShortName">ld</obj_property>
+      <obj_property name="ObjectShortName">ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/PC_2_Mux" type="array">
+      <obj_property name="ElementShortName">PC_2_Mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_2_Mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/PC/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/PC/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/my_cu_dcdr/pcSource" type="array">
+      <obj_property name="ElementShortName">pcSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSource[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider11">
+      <obj_property name="label">Instruction</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/irWire" type="array">
+      <obj_property name="ElementShortName">irWire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irWire[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/leds" type="array">
+      <obj_property name="ElementShortName">leds[15:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/segs" type="array">
+      <obj_property name="ElementShortName">segs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">segs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/my_wrapper/TLD/iobus_wr" type="logic">
+      <obj_property name="ElementShortName">iobus_wr</obj_property>
+      <obj_property name="ObjectShortName">iobus_wr</obj_property>
    </wvobject>
 </wave_config>

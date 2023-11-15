@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35ticsg325-1L" LaunchTime="1699872646" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/OTTER_Wrapper.dcp">
   <File Type="PA-TCL" Name="ExpSixTLD.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="ExpSixTLD_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ExpSixTLD_reports.tcl"/>
   <File Type="RDS-RDS" Name="ExpSixTLD.vds"/>
   <File Type="RDS-UTIL" Name="ExpSixTLD_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ExpSixTLD_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ExpSixTLD.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="ExpSixTLD_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="ExpSixTLD_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../../../../Downloads/ALU.v">
