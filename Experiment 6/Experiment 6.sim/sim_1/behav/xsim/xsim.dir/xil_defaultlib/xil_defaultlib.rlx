@@ -17,5 +17,5 @@ C:/Users/Ray Valenzuela/Downloads/BranchAddressGenerator.v,1699413473,verilog,,C
 C:/Users/Ray Valenzuela/Downloads/ImmediateGenerator.v,1699413484,verilog,,C:/Users/Ray Valenzuela/Downloads/PC.v,,Immed_Gen,,uvm,,,,,,
 C:/Users/Ray Valenzuela/Downloads/PC.v,1699413489,verilog,,C:/Users/Ray Valenzuela/Downloads/clk_2n_div_test_v1_01.v,,reg_nb_sclr,,uvm,,,,,,
 C:/Users/Ray Valenzuela/Downloads/clk_2n_div_test_v1_01.v,1699413647,verilog,,C:/Users/Ray Valenzuela/CPE233/Modules/mux_2t1_nb_v1_04.v,,clk_2n_div_test,,uvm,,,,,,
-C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv,1699995556,systemVerilog,,C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv,,CU_DCDR,,uvm,,,,,,
-C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv,1700020510,systemVerilog,,C:/Users/Ray Valenzuela/CPE233/Modules/otter_memory_v1_06.sv,,CU_FSM,,uvm,,,,,,
+C:/Users/Ray Valenzuela/Downloads/control_unit_dcdr_v_1_05.sv,1700159815,systemVerilog,,C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv,,CU_DCDR,,uvm,,,,,,
+C:/Users/Ray Valenzuela/Downloads/control_unit_fsm_v_1_07.sv,1700160343,systemVerilog,,C:/Users/Ray Valenzuela/CPE233/Modules/otter_memory_v1_06.sv,,CU_FSM,,uvm,,,,,,
